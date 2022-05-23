@@ -1,7 +1,61 @@
 .App {
   text-align: center;
+  padding-top: 15%;
+  height: 100%;
+  margin-inline: 5%;
 }
-
+.main-wrapper {
+  height: 100vh;
+}
+.marg-bottom {
+  margin-top: 25%;
+}
+.subheader-section{
+  padding-bottom: 5%;
+}
+.body-text {
+  font-size: 35px;
+  font-family: Bebas Neue;
+  color: #0b172a;
+}
+.bg-image {
+  background-image: url('utils/images/website-background.png');
+  height: 100%;
+}
+.btn-primary {
+  background-color: #C5C6C7 !important;
+  font-family: "Arial" !important;
+  font-weight: bold !important;;
+  color: #091221 !important;
+  letter-spacing: -1px !important;
+  width: 15%;
+  border: 0px !important;
+  border-radius: 10px !important;
+  margin-inline: 0% !important;
+}
+.btn-primary:hover {
+  background-color: #e5f0f5 !important;
+}
+.lt-blue{
+  background-color: #8bc6e3 !important;
+  border-radius: 0;
+}
+.lt-white{
+  background-color: #e5f0f5 !important;
+  border-radius: 0;
+}
+.bright-blue{
+  background-color: #61dafb !important;
+  border: 0 !important;
+}
+.dk-blue{
+  background-color: #0b172a !important;
+  border: 0 !important;
+}
+.white{
+  background-color: #ffffff !important;
+  border: 0 !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,18 +68,48 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  color: #f8f051;
+  display: flex;
+  align-items: flex-start;
+  justify-content: right;
+  font-size: 650%;
+  font-family: Bebas Neue;
+}
+.App-subheader {
+  color: #C5C6C7;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  justify-content: left;
+  font-size: 180%;
+}
+.body-font{
+  font-family: "Arial";
+  letter-spacing: -2px;
+  font-weight: bold;
+  line-height: 85%;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #35c3ea;
+}
+.nav-link {
+  color: #152d52 !important;
+}
+.nav-link:hover {
+  color: #C5C6C7 !important;
+}
+.navbar-expand {
+  justify-content: center !important;
+}
+.nav {
+  background-color: #091221 !important;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Arial";
+  letter-spacing: -2px;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
